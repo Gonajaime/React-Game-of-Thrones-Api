@@ -1,0 +1,32 @@
+@font-face{
+  font-family:'Game Of Thrones';
+  src: url(./Font/Game\ of\ Thrones.ttf);
+}
+body{
+  font-family: 'Game Of Thrones';
+  margin: 0;
+  padding: 0;
+ overflow: hidden;
+ scrollbar-gutter:none;
+}
+
+.background{
+  /* height: 100vh; */
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-content: center; */
+  background-image: url('../src/Imagenes/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  /* height: 1080px; */
+  /* object-fit: contain; */
+ 
+  
+
+  
+}
+.black-bg{
+  background-color: black;
+}

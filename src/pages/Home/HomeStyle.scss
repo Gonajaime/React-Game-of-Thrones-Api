@@ -1,0 +1,30 @@
+.backgroundt{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 90vh;
+
+   
+    
+    &__center{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        &--text{
+            font-size: 172px;
+            color: white;
+        }
+    }
+    
+}
+.background__center--text{
+    color: white;
+    font-size: 172px;
+
+}
+.background__center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
